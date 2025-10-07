@@ -1,0 +1,41 @@
+					GIT_WORKSHOP2K25(CODERS CREW)
+					 {coderscrew.team@gmail.com}
+
+GIT BASH COMMANDS:
+installation 
+git config --global user.name "username"
+git config --global user.email "gmail"
+
+=======================================================
+
+git init :  to initialize empty repository
+
+git add * : to add all files in git bash(to add changes in staging area)
+
+git status :  to check status of untracked and tracked files
+
+git commit -m "any meaningful message" : to commit the changes
+
+git log : can check logs after commiting
+
+git revert (pass commit hash code) : reverts the commited changes (delets files)
+
+git remote : to check all connections
+
+git remote add origin(name of connection) (repo url) : to add remote connection
+
+git push -u origin master : to push changes on remote
+
+git pull : to pull changes on local from remote
+
+git branch : to check existing branches
+
+git branch (name of branch) : to add new branch
+
+git checkout (branch to be switched) : to switch branches
+
+git merge (branch name that you want to merge) : to commit the changes in the main release branch i.e. to master or main branch
+
+git clone (GitHub https url) : to clone the repo with commit history
+
+git fetch (GitHub https url) : to clone the repo without history
